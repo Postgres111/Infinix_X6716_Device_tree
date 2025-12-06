@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from Infinix-X6716 device
-$(call inherit-product, device/infinix/Infinix-X6716/device.mk)
+$(call inherit-product, device/infinix/Infinix_X6716/device.mk)
 
 PRODUCT_DEVICE := Infinix_X6716
 PRODUCT_NAME := omni_Infinix_X6716
