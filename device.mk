@@ -18,27 +18,11 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
     android.hardware.boot@1.0-service
 
-PRODUCT_PACKAGES += \
-    bootctrl.mt6768
-
 #PRODUCT_STATIC_BOOT_CONTROL_HAL := \
 #    bootctrl.mt6768 \
 #    libgptutils \
 #    libz \
 #    libcutils
 #
-PRODUCT_PACKAGES += \
-   otapreopt_script \
-    cppreopts.sh \
-    update_engine \
-    update_verifier \
-    update_engine_sideload
-
-PRODUCT_PACKAGES -= update_engine
-PRODUCT_PACKAGES -= update_verifier
-PRODUCT_PACKAGES -= otapreopt_script
-PRODUCT_PACKAGES -= cppreopts.sh
-PRODUCT_PACKAGES -= bootctrl.mt6768
-
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.twrp.shrink_ramdisk=true
 
