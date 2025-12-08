@@ -54,3 +54,15 @@ PRODUCT_PACKAGES += \
     -libaospcrypto \
     -libopenaes_intermediates \
     -libopenaes.so
+
+# Если в дереве есть keystore/keystore2, удаляем их из recovery-пакетов
+PRODUCT_PACKAGES += \
+    -keystore \
+    -libkeystore
+
+# Если есть специфичные recovery-утилиты, которые увеличивают размер/тянут crypto — вырезаем
+PRODUCT_PACKAGES += \
+    -update_engine \
+    -update_engine_sideload \
+    -update_verifier \
+    -otapreopt_script
