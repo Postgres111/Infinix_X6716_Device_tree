@@ -26,13 +26,14 @@ PRODUCT_PACKAGES += \
 #
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.twrp.shrink_ramdisk=true
 
-PRODUCT_PACKAGES := \
+PRODUCT_PACKAGES += \
     -ssh \
     -sshd \
     -scp \
     -sftp \
+    -libssh \
     -ssh-keygen \
     -ssh-agent \
     -ssh-add \
-    -ssh-keyscan \
-    -libssh
+    -ssh-keyscan
+
