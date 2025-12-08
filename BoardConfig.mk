@@ -21,6 +21,7 @@ AB_OTA_PARTITIONS += \
     boot \
     vbmeta_vendor
 BOARD_USES_RECOVERY_AS_BOOT := true
+TW_HAS_NO_RECOVERY_PARTITION := true
 
 # Architecture
 TARGET_ARCH := arm64
