@@ -38,3 +38,19 @@ PRODUCT_PACKAGES += \
     -ssh-keyscan \
     -busybox
 
+PRODUCT_PACKAGES += \
+    -libopenaes \
+    -openaes \
+    -libcrypto \
+    -libssl \
+    -libkeystore2 \
+    -keystore2 \
+    -liblegacykeystore \
+    -liblegacycrypto \
+    -librecoverycrypto \
+    -recoverycrypto \
+    -libopenssl \
+    -libcrypto_utils \
+    -libaospcrypto \
+    -libopenaes_intermediates \
+    -libopenaes.so
