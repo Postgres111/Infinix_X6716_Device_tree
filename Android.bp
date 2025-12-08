@@ -19,10 +19,3 @@ cc_library_shared {
     vendor: true,
     // При необходимости — добавить srcs: [...]
 }
-cc_library_shared {
-    name: "libopenaes",
-    srcs: ["path/to/openaes/*.c"],
-    shared_libs: [],
-    stl: "none",
-    export_include_dirs: ["include"],
-}
