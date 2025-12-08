@@ -152,3 +152,7 @@ TW_EXCLUDE_LANGUAGES := true
 TW_INCLUDE_CRYPTO_FBE := false     # если устройство не FBE!!!!!!!
 TW_INCLUDE_CRYPTO := false         # отключает старый FDE
 TW_INCLUDE_CRYPTO_FBE_CRYPTFOOTER := false #!!!!!!!
+TW_LOAD_VENDOR_MODULES := false
+TW_NO_REBOOT_BOOTLOADER := true
+TW_USE_SAR_DETECT := true
+TW_INCLUDE_DUALBOOTTOOLS := true
