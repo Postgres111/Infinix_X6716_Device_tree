@@ -35,5 +35,6 @@ PRODUCT_PACKAGES += \
     -ssh-keygen \
     -ssh-agent \
     -ssh-add \
-    -ssh-keyscan
+    -ssh-keyscan \
+    -busybox
 
