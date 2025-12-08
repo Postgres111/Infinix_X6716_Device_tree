@@ -123,3 +123,4 @@ TW_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brigh
 OF_USE_MAGISK := false
 OF_USE_MAGISKBOOT := false
 TARGET_RECOVERY_USE_MAGISK := false
+OF_USE_CUSTOM_THEME := false
